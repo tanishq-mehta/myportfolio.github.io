@@ -1,0 +1,237 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+#desc01{
+   /* background-color: rgb(4,170,109); */
+   color: rgb(247,236,233);
+    
+}
+.navbar{
+    color: white;
+    display: flex;
+    background-color: rgb(214,162,146);
+    position: fixed;
+    padding-right: 26.4ch;
+}
+
+.name{
+    padding-left: 10ch;
+}
+
+.navlinks{
+    display: flex;
+    padding-left: 60ch;
+    
+}
+
+.links{
+    padding-left: 7ch;
+    padding-right: 7ch;
+    
+}
+
+.slink{
+    color: white;
+    text-decoration: none;
+}
+
+#name{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.page1{
+    color: white;
+    display: flex;
+    padding-bottom: 22ch;
+    background-color: rgb(183,130,118);
+}
+
+.text{
+    padding-left: 10ch;
+    padding-top: 10ch;
+}
+
+.desc1{
+    font-size: 200%;
+    
+}
+
+.desc2{
+    font-size: 150%;
+}
+
+.button{
+    width: 30ch;
+    background-color: rgb(183,130,118);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(214,162,146);
+    border-width: 0.5ch;
+    margin: 1ch;
+    border-style: solid;
+    
+}
+
+.allbuttons{
+    display: flex;
+    padding-top: 9.5ch;
+}
+
+.button2{
+    padding-left: 10ch;
+}
+
+.allhobbies{
+    display: flex;
+    justify-content: center;
+}
+
+.hobby{
+    padding: 5ch;
+}
+
+#dance{
+    padding-left: 3ch;
+}
+#code{
+    padding-left: 4ch;
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+
+.page2{
+    padding-top: 30ch;
+    padding-bottom: 20ch;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70ch;
+}
+
+.tl{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6ch;
+    padding-bottom: 6ch;
+}
+
+.levels{
+    width: 60ch;
+    height: 3ch;
+    background-color: white;
+    }
+
+.level{
+    background-color: rgb(214,162,146);
+    width: 60ch;
+    height: 3ch;
+}
+
+#level1{
+    width: 80%;
+}
+
+#level2{
+    width: 60%;
+}
+
+#level3{
+    width: 40%;
+}
+
+.page3{
+    background-color: rgb(247,236,233);
+    padding-bottom: 7ch;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    
+}
+
+.active{
+    text-decoration: underline;
+    color: black;
+}
+
+#sbutton{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 99;
+    padding: 15px;
+    font-size: 150%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 100%;
+    border-style: ridge;
+
+}
+
+#pic{
+    height: 50ch;
+    margin-top: 20ch;
+    margin-left: 10ch;
+    border-radius: 100%; 
+    margin-right: 20ch; 
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+   
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 1.5ch;
+    margin-left: 20ch;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+     .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+

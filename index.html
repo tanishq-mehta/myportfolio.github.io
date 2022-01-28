@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    
+</head>
+<body>
+    <div class="outerdiv">
+
+        <div class="scrollbutton">
+            <button id="sbutton" onclick="scrollup();" onmouseover="hscrollup();" onmouseout="hnscrollup();">
+                &uarr;
+            </button>
+        </div>
+
+        <div class="navbar">
+
+            <div class="name">
+                <a id="name" href="#page1"><h3>TANISHQ MEHTA</h3></a>
+            </div>
+
+            <div class="navlinks">
+                <div class="links" >
+                   <div><a class="slink" href="#page1"><h3 id="link1">Home</h3></a></div>
+                </div>
+
+                <div class="links" >
+                    <div><a class="slink"  href="#page2" id="link2"><h3  >My Hobbies</h3></a></div>
+                </div>
+
+                <div class="links" >
+                    <div><a class="slink" href="#page3"><h3 id="link3" >Skills</h3></a></div>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Profile</button>
+                <div class="dropdown-content">
+                  <a href="https://www.instagram.com/_tanishqmehta_/?utm_medium=copy_link" target="_blank">Instagram</a>
+                  <a href="https://www.linkedin.com/in/tanishq-mehta-49617a1bb/" target="_blank">LinkedIn</a>
+                  <a href="https://github.com/tanishq-mehta" target="_blank">GitHub</a>
+                </div>
+              </div>
+
+        </div>
+        
+        <section class="page1" id="page1">
+            <div class="text">
+
+            <div class="desc1">
+                <div id="desc01"><h1>Hi, Welcome To My Profile...</h1></div>
+            </div>
+
+            <div class="desc2">
+                <div><h3>I am currently pursuing computer engineering<br>at NSUT, MAIN CAMPUS( 2nd year ).<br>I try to give my best in everything i do.<br>I am also in MIRAGE( western dance society ) and FINSOC ( finance society ),<br> and contributed well in both of them.</h3></div>
+            </div>
+
+            <div class="allbuttons">
+                <div  class="button1">
+                    <button class="button" id="button1" onclick="window.location='#page2'" onmouseover="handleOver();" onmouseout="handleOut();"  ><h2>My Hobbies</h2></button>  
+                </div>
+
+                <div  class="button2">
+                    <button class="button" id="button2" onclick="window.location='#page3' " onmouseover="handleOver2();" onmouseout="handleOut2();"><h2>Skills</h2></button>
+                </div>
+
+                
+            </div>
+
+            </div>
+
+            <div class="img">
+                <img id="pic"  src="my_pic.jpg" alt="">
+   
+            </div>
+
+        </section>
+
+        <section id="page2" class="page2">
+            <div class="title1">
+                <h2>My Hobbies</h2>
+            </div>
+
+            <div class="allhobbies">
+                <div class="hobby" class="hobby1">
+                    <img src="cricket2.png" alt="">
+                    <h3>CRICKET</h3>
+                </div>
+
+                <div class="hobby" class="hobby2">
+                    <img src="dance2.png" alt="">  
+                    <h3 id="dance">DANCE</h3>
+                </div>
+
+                <div class="hobby" class="hobby3">
+                    <img src="philosophy2.png" alt="">
+                    <h3>PHILOSOPHY</h3>
+                </div>
+
+                <div class="hobby" class="hobby4">
+                    <img src="code2.png" alt="">
+                    <h3 id="code">CODE</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="page3" id="page3">
+
+            <div class="title2">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills">
+
+                <div class="tl">
+                    <img src="html2.png" alt="">
+                    <h3>HTML</h3>
+                </div>
+                <div class="levels">
+                    <div class="level" id="level1">
+
+                    </div>
+                </div>
+
+                <div class="tl">
+                    <img src="css2.png" alt="">
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="levels">
+                    <div id="level2" class="level">
+
+                    </div>
+                </div>
+
+                <div class="tl">
+                    <img src="js2.png" alt="">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+
+                <div class="levels">
+                    <div id="level3" class="level">
+
+                    </div>
+                </div>
+
+            </div>    
+            
+            
+        </section>
+
+        
+    </div>
+    <script src="page.js"></script>
+</body>
+</html>
